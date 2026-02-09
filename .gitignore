@@ -1,2 +1,35 @@
+# project specific
+rust_fhir_tools/*
+features.md
+
 data/*
+physionet.org/
+
+# OS artifacts
 .DS_Store
+Thumbs.db
+
+# Python caches and virtualenvs
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+
+# Rust build outputs
+rust_fhir_tools/target/
+
+# Svelte viewer generated artifacts
+patient_bundle_viewer/node_modules/
+patient_bundle_viewer/.svelte-kit/
+patient_bundle_viewer/build/
+patient_bundle_viewer/.output/
+patient_bundle_viewer/.vercel/
+patient_bundle_viewer/.netlify/
+patient_bundle_viewer/.wrangler/
+patient_bundle_viewer/vite.config.js.timestamp-*
+patient_bundle_viewer/vite.config.ts.timestamp-*
