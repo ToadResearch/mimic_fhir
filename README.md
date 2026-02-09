@@ -12,7 +12,7 @@ chmod +x download_data.sh
 ## Run viewer
 
 ```sh
-cd patient_bundle_viewer
+cd site
 npm install
 npm run dev
 ```

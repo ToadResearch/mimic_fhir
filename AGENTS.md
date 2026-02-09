@@ -17,7 +17,7 @@ Maintain and improve tooling around MIMIC-IV FHIR demo data:
 - `src/fhir_bundle_stats.py`: computes bundle-level metrics
 - `data/fhir_resources`: NDJSON source data (large)
 - `data/fhir_bundles`: patient bundles (large)
-- `patient_bundle_viewer`: Svelte 5 app for interactive analysis
+- `site`: Svelte 5 app for interactive analysis
 
 ## Viewer Product Notes
 
@@ -67,7 +67,7 @@ Set `FHIR_BUNDLE_DIR` if your data is elsewhere.
 - Make scripts idempotent when feasible.
 - Avoid destructive operations unless explicitly requested.
 
-### Svelte/Tailwind (`patient_bundle_viewer`)
+### Svelte/Tailwind (`site`)
 
 - Prioritize insight-first UX over raw JSON presentation.
 - Keep components readable and split logic into `$lib` helpers when complex.
@@ -95,7 +95,7 @@ bash -n download_data.sh
 ### Viewer
 
 ```sh
-cd patient_bundle_viewer
+cd site
 npm run check
 npm run build
 ```
@@ -103,7 +103,7 @@ npm run build
 ## Documentation Rules
 
 - Update root `README.md` when behavior, commands, or folder expectations change.
-- Keep `patient_bundle_viewer/README.md` lightweight and point to root docs.
+- Keep `site/README.md` lightweight and point to root docs.
 
 ## When Unsure
 

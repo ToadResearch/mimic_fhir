@@ -24,12 +24,12 @@ venv/
 rust_fhir_tools/target/
 
 # Svelte viewer generated artifacts
-patient_bundle_viewer/node_modules/
-patient_bundle_viewer/.svelte-kit/
-patient_bundle_viewer/build/
-patient_bundle_viewer/.output/
-patient_bundle_viewer/.vercel/
-patient_bundle_viewer/.netlify/
-patient_bundle_viewer/.wrangler/
-patient_bundle_viewer/vite.config.js.timestamp-*
-patient_bundle_viewer/vite.config.ts.timestamp-*
+site/node_modules/
+site/.svelte-kit/
+site/build/
+site/.output/
+site/.vercel/
+site/.netlify/
+site/.wrangler/
+site/vite.config.js.timestamp-*
+site/vite.config.ts.timestamp-*
